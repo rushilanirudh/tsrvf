@@ -1,0 +1,16 @@
+% Feb 23-10
+% compute velocity matrix, A, between two subspace having projeciton
+% matrices ans subspaces representation
+
+function [A,U] = compute_velocity_grassmann_projection(P1, P2, Q)
+% P1 = U.Q.U'
+
+n = size(P1,1);
+[E,Eig]=eig(P1);
+U = [E(:,end-1:end),rand(n,n-2)];
+[U,R] = qr(U);
+
+P = U'*P2*U;
+
+
+

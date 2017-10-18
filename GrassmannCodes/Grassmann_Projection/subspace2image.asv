@@ -1,0 +1,22 @@
+% Feb 22-10
+% map from subspace to mandmark space by calculating the afffine matrix
+
+function  L = subspace2image(P,L_part, Index)
+% L = subspace2image(P,L_part)
+% P is the projection matrix which represents a subspace on Grassmann
+% L_part are some of the landmarks we already have on the image
+% L is the full landmark matrix
+
+[U,D] = eig(P);
+Y = U(:,end-1:end);
+
+% find A such that: L = Y*A
+
+Y_part = Y(Index,:);
+
+L_part_N = L_part - L_part(1,:); 
+A = Y_part\L_part_N;
+
+L = Y*A;
+
+
