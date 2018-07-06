@@ -1,7 +1,8 @@
 ### Transport Square-root Velocity Framework to Model Latent Space of Human Actions
 This code base contains MATLAB source code for the theory on performing elastic registration of Riemannian trajectories. If this is useful in your work please consider citing our paper:
 
-Anirudh, R., Turaga, P., Su, J., & Srivastava, A. Elastic functional coding of human actions: From vector-fields to latent variables, CVPR 2015. [[pdf](https://www.cv-foundation.org/openaccess/content_cvpr_2015/papers/Anirudh_Elastic_Functional_Coding_2015_CVPR_paper.pdf)]
+Anirudh, R., Turaga, P., Su, J., & Srivastava, A. Elastic functional coding of human actions: From vector-fields to latent variables, CVPR 2015. 
+[[pdf](https://www.cv-foundation.org/openaccess/content_cvpr_2015/papers/Anirudh_Elastic_Functional_Coding_2015_CVPR_paper.pdf)]
 
 ```
 @inproceedings{anirudh2015elastic,
