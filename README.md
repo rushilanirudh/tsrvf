@@ -12,3 +12,19 @@ Anirudh, R., Turaga, P., Su, J., & Srivastava, A. Elastic functional coding of h
   year={2015}
 }
 ```
+
+The Journal version with more manifolds, experiments and analysis is
+Anirudh, R., Turaga, P., Su, J., & Srivastava, A. Elastic functional coding of Riemannian trajectories, in PAMI 2017.[[arxiv version](https://arxiv.org/abs/1603.02200)]
+
+```
+@article{anirudh2017elastic,
+  title={Elastic functional coding of Riemannian trajectories},
+  author={Anirudh, Rushil and Turaga, Pavan and Su, Jingyong and Srivastava, Anuj},
+  journal={IEEE transactions on pattern analysis and machine intelligence},
+  volume={39},
+  number={5},
+  pages={922--936},
+  year={2017},
+  publisher={IEEE}
+}
+```
