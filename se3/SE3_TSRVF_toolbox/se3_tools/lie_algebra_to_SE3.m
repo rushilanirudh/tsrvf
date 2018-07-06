@@ -1,0 +1,9 @@
+function B = lie_algebra_to_SE3(vec)
+u1 = vec(1);
+u2 = vec(2);
+u3 = vec(3);
+w1 = vec(4);
+w2 = vec(5);
+w3 = vec(6);
+tmp = [0 -u3 u2 w1; u3 0 -u1 w2; -u2 u1 0 w3;0 0 0 0];
+B = expm(tmp);
